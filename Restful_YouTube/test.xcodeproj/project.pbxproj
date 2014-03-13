@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95C7EE718B44CBE0028C809 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95C7EE618B44CBE0028C809 /* TextViewController.m */; };
 		D9E88D8D18A1D535009F7702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E88D8C18A1D535009F7702 /* Foundation.framework */; };
 		D9E88D8F18A1D535009F7702 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E88D8E18A1D535009F7702 /* CoreGraphics.framework */; };
 		D9E88D9118A1D535009F7702 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E88D9018A1D535009F7702 /* UIKit.framework */; };
@@ -189,6 +190,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D95C7EE518B44CBE0028C809 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		D95C7EE618B44CBE0028C809 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		D9E88D8918A1D535009F7702 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E88D8C18A1D535009F7702 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9E88D8E18A1D535009F7702 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -550,6 +553,8 @@
 				D9E88D9318A1D535009F7702 /* Supporting Files */,
 				D9E88DC318A1DE05009F7702 /* youtubeData.h */,
 				D9E88DC418A1DE05009F7702 /* youtubeData.m */,
+				D95C7EE518B44CBE0028C809 /* TextViewController.h */,
+				D95C7EE618B44CBE0028C809 /* TextViewController.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -1079,6 +1084,7 @@
 				D9E8909818A1EE29009F7702 /* GTLYouTubeVideoCategorySnippet.m in Sources */,
 				D9E8904518A1EE29009F7702 /* GTLYouTubeActivityContentDetailsComment.m in Sources */,
 				D9E8904018A1EE29009F7702 /* GTLYouTubeAccessPolicy.m in Sources */,
+				D95C7EE718B44CBE0028C809 /* TextViewController.m in Sources */,
 				D9E8907018A1EE29009F7702 /* GTLYouTubeLiveStream.m in Sources */,
 				D9E8906918A1EE29009F7702 /* GTLYouTubeInvideoPromotion.m in Sources */,
 				D9E8904B18A1EE29009F7702 /* GTLYouTubeActivityContentDetailsSocial.m in Sources */,
@@ -1344,6 +1350,7 @@
 				D9E88DBD18A1D535009F7702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9E88DBE18A1D535009F7702 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -1352,6 +1359,7 @@
 				D9E88DC018A1D535009F7702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

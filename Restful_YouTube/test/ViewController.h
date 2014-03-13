@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "youtubeData.h"
+#import "TextViewController.h"
 
 @interface ViewController : UIViewController
 -(IBAction)getVideos:(id)sender;
